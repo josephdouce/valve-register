@@ -160,3 +160,5 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/python,windows,visualstudiocode
+
+.vscode/settings.json
