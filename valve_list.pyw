@@ -45,7 +45,7 @@ class Application(ttk.Frame):
 
     #load valve data into a lsit of dictionaries
     def load_data(self):
-        with open('./data/valve_list.csv') as f:
+        with open('./valve_list.csv') as f:
             data = [{k: str(v) for k, v in row.items()}
                 for row in csv.DictReader(f, skipinitialspace=True)]
         return(data)
